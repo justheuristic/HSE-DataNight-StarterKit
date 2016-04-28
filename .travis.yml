@@ -1,0 +1,4 @@
+language: python
+python: 2.7
+install: pip install runipy && make
+script: cd tests && python -m unittest test_of_test
